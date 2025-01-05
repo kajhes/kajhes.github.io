@@ -1,3 +1,3 @@
-var posts=["2025/01/05/第一个博客/","2025/01/05/第一个博客 - 副本/","2025/01/05/第一个博客 - 副本 (2)/","2025/01/05/第一个博客 - 副本 (3)/","2025/01/05/第一个博客 - 副本 (4)/","2025/01/05/第一个博客 - 副本 (5)/"];function toRandomPost(){
+var posts=["2025/01/05/第一个博客/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
